@@ -1,6 +1,13 @@
 // Array of image URLs
 const images = [
+    'https://cdn.pixabay.com/photo/2023/12/12/18/18/ai-generated-8445710_1280.png',
+    'https://source.unsplash.com/featured/?city',
+    'https://source.unsplash.com/featured/?technolo',
     'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
+    'https://source.unsplash.com/featured/?mountain',
+    'https://cdn.pixabay.com/photo/2023/12/12/18/18/ai-generated-8445710_1280.png',
+    'https://source.unsplash.com/featured/?sky',
+    'https://source.unsplash.com/featured/?animals',
     
 ];
 
