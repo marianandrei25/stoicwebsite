@@ -7,7 +7,7 @@ const images = [
     'https://source.unsplash.com/featured/?mountain',
     'https://cdn.pixabay.com/photo/2023/12/12/18/18/ai-generated-8445710_1280.png',
     'https://source.unsplash.com/featured/?sky',
-    'https://source.unsplash.com/featured/?animals',
+    
     
 ];
 
