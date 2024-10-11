@@ -1,7 +1,13 @@
 // Array of image URLs
 const images = [
     'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
-    
+    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
+    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
+    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
+    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
+    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
+    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
+    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
 ];
 
 // Function to get the current day of the year
