@@ -35,7 +35,7 @@ let alterStyles = (isBackToTopRendered) => {
 const quotes = [ 
     { text: "The only way to do great work is to love what you do.", author: "Steve Jobs" }, 
     { text: "You have power over your mind—not outside events. Realize this, and you will find strength.", author: "Marcus Aurelius" }, 
-    { text: "Get busy living or get busy dying.", author: "Stephen King" }, 
+    { text: "It is not what happens to you, but how you react to it that matters", author: "Epictetus" }, 
     { text: "You have to be odd to be number one.", author: "Dr. Seuss" }, 
     { text: "The future belongs to those who believe in the beauty of their dreams.", author: "Eleanor Roosevelt", explanation: "Explanation: Quote produced today"}, 
     // Add more quotes as needed 
