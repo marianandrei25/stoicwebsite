@@ -37,7 +37,7 @@ const quotes = [
     { text: "You have power over your mind—not outside events. Realize this, and you will find strength.", author: "Marcus Aurelius" }, 
     { text: "It is not what happens to you, but how you react to it that matters", author: "Epictetus" }, 
     { text: "You have to be odd to be number one.", author: "Dr. Seuss" }, 
-    { text: "The future belongs to those who believe in the beauty of their dreams.", author: "Eleanor Roosevelt", explanation: "Explanation: Quote produced today"}, 
+    { text: "He who fears death will never do anything worth of a man who is alive.", author: "Seneca", explanation: "Explanation: Quote produced today"}, 
     // Add more quotes as needed 
 ]; 
  
