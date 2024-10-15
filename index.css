@@ -2,7 +2,9 @@
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
-
+p {
+    color: white;
+}
 @font-face {
     font-family: 'Hk Grotesk';
     font-style: normal;
