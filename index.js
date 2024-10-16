@@ -33,8 +33,8 @@ let alterStyles = (isBackToTopRendered) => {
 };
 
 const quotes = [ 
-    { text: "The only way to do great work is to love what you do.", author: "Steve Jobs" }, 
-    { text: "You have power over your mind—not outside events. Realize this, and you will find strength.", author: "Marcus Aurelius" }, 
+    { text: "We suffer more often in imagination than in reality.", author: "Seneca", Explanation: "This quote emphasizes that much of our suffering comes from worry and fear about things that might happen, rather than the actual events themselves. Seneca teaches us to focus on the present and not be overwhelmed by hypothetical concerns." }, 
+    { text: "You have power over your mind—not outside events. Realize this, and you will find strength.", author: "Marcus Aurelius", Explanation: "Marcus Aurelius reminds us that while we cannot control external events, we have full control over how we perceive and react to them. Our inner mindset and attitude are the keys to emotional strength and resilience." }, 
     { text: "It is not what happens to you, but how you react to it that matters", author: "Epictetus" }, 
     { text: "You have to be odd to be number one.", author: "Dr. Seuss" }, 
     { text: "He who fears death will never do anything worth of a man who is alive.", author: "Seneca", explanation: "Explanation: Quote produced today"}, 
