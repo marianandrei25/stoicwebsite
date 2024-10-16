@@ -1,7 +1,7 @@
 // Array of images (You can add URLs to your own images)
 const images = [
-    'https://img.freepik.com/free-photo/view-ancient-greek-bust-figure_23-2151616992.jpg?t=st=1729097959~exp=1729101559~hmac=0198dc03cfdacbcdabf0ec324e48b2ce4b56cb07ec5df55f08ebb669446b8150&w=996',
-    'https://media.istockphoto.com/id/1171966918/photo/gypsum-copy-of-ancient-statue-seneca-head-on-dark-textured-background-plaster-sculpture-man.jpg?s=1024x1024&w=is&k=20&c=o3wkOVDnSnjaIU1wNMqb1IFRy4Ed6hsPJGyaNF79bmE=',
+    'https://img.freepik.com/free-photo/view-ancient-greek-bust-figure_23-2151616992.jpg?t=st=1729098441~exp=1729102041~hmac=e71cb49fb00007a87ed711ca51e2514e90aef5948e29eef66665573a4ac10d08&w=996',
+    'https://img.freepik.com/free-photo/view-ancient-greek-bust-figure_23-2151616992.jpg?t=st=1729098441~exp=1729102041~hmac=e71cb49fb00007a87ed711ca51e2514e90aef5948e29eef66665573a4ac10d08&w=996',
 ];
 
 // Function to get a random image based on the current day
