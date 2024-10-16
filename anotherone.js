@@ -1,33 +1,18 @@
-// Array of image URLs
+// Array of images (You can add URLs to your own images)
 const images = [
-    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
-    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
-    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
-    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
-    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
-    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
-    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
-    'https://cdn.pixabay.com/photo/2023/12/05/12/23/art-8431545_1280.png',
+    'https://media.istockphoto.com/id/1171966918/photo/gypsum-copy-of-ancient-statue-seneca-head-on-dark-textured-background-plaster-sculpture-man.jpg?s=1024x1024&w=is&k=20&c=o3wkOVDnSnjaIU1wNMqb1IFRy4Ed6hsPJGyaNF79bmE=',
+    'https://media.istockphoto.com/id/1171966918/photo/gypsum-copy-of-ancient-statue-seneca-head-on-dark-textured-background-plaster-sculpture-man.jpg?s=1024x1024&w=is&k=20&c=o3wkOVDnSnjaIU1wNMqb1IFRy4Ed6hsPJGyaNF79bmE=',
 ];
 
-// Function to get the current day of the year
-function getDayOfYear() {
-    const start = new Date(new Date().getFullYear(), 0, 0);
-    const diff = new Date() - start;
-    const oneDay = 1000 * 60 * 60 * 24;
-    return Math.floor(diff / oneDay);
+// Function to get a random image based on the current day
+function getDailyImage() {
+    const date = new Date();
+    const dayIndex = date.getDate() % images.length; // Get the index based on day of the month
+    return images[dayIndex];
 }
 
-// Function to display the daily image
-function displayDailyImage() {
-    const dayOfYear = getDayOfYear();
-    const imageIndex = dayOfYear % images.length;
-    const imageElement = document.getElementById('daily-image');
-    imageElement.src = images[imageIndex];
-}
-
-// Event listener for the button
-document.getElementById('new-image-btn').addEventListener('click', displayDailyImage);
-
-// Display the image when the page loads
-window.onload = displayDailyImage;
+// Set the daily image
+window.onload = function() {
+    const imgElement = document.getElementById('dailyImage');
+    imgElement.src = getDailyImage();
+};
