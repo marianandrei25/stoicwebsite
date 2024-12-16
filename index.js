@@ -37,7 +37,8 @@ const quotes = [
     { text: "You have power over your mind—not outside events. Realize this, and you will find strength.", author: "Marcus Aurelius", Explanation: "Marcus Aurelius reminds us that while we cannot control external events, we have full control over how we perceive and react to them. Our inner mindset and attitude are the keys to emotional strength and resilience." }, 
     { text: "It is not what happens to you, but how you react to it that matters", author: "Epictetus" }, 
     { text: "You have to be odd to be number one.", author: "Dr. Seuss" }, 
-    { text: "He who fears death will never do anything worth of a man who is alive.", author: "Seneca", explanation: "Explanation: Quote produced today"}, 
+    { text: "He who fears death will never do anything worth of a man who is alive.", author: "Seneca", explanation: "Explanation: Quote produced today"},
+  { text: "Man is disturbed not by things, but by the views he takes of them.", author: "Epictetus", Explanation: "Explanation: This quote explains that it's not the events themselves that cause us distress, but our interpretations of those events. If we can change our perspective, we can lessen our suffering and approach challenges with a clearer mind."},
     // Add more quotes as needed 
 ]; 
  
