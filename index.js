@@ -33,11 +33,7 @@ let alterStyles = (isBackToTopRendered) => {
 };
 
 const quotes = [ 
-    { text: "We suffer more often in imagination than in reality.", author: "Seneca", Explanation: "This quote emphasizes that much of our suffering comes from worry and fear about things that might happen, rather than the actual events themselves. Seneca teaches us to focus on the present and not be overwhelmed by hypothetical concerns." }, 
-    { text: "You have power over your mind—not outside events. Realize this, and you will find strength.", author: "Marcus Aurelius", Explanation: "Marcus Aurelius reminds us that while we cannot control external events, we have full control over how we perceive and react to them. Our inner mindset and attitude are the keys to emotional strength and resilience." }, 
-    { text: "It is not what happens to you, but how you react to it that matters", author: "Epictetus" }, 
-    { text: "You have to be odd to be number one.", author: "Dr. Seuss" }, 
-    { text: "He who fears death will never do anything worth of a man who is alive.", author: "Seneca", explanation: "Explanation: Quote produced today"}, 
+    { text: "He who fears death will never do anything worth of a man who is alive.", author: "Seneca", explanation: "Explanation: This quote emphasizes that the fear of death can limit us from living a meaningful life. If we are constantly afraid of dying, we avoid risks, challenges, and even important decisions that could lead to growth and fulfillment. Seneca encourages us to embrace life fully without letting the fear of death dictate our actions."}, 
     // Add more quotes as needed 
 ]; 
  
